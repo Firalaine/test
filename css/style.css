@@ -1,0 +1,672 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Libre Franklin';
+}
+/* header */
+.header {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f5d6ab;
+  height: 768px;
+  overflow: hidden;
+  width: auto;
+  background-image: url("../bg.jpg");
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 93px 165px 150px 165px;
+  height: 29px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.header-box a{
+text-decoration: none;
+  color: #FFFFFF;
+}
+.header-box h1 {
+  flex-grow: 1;
+}
+
+.header-box nav {
+  width: 580px;
+  align-items: center;
+  font-weight: 300;
+  font-size: 18px;
+
+  font-style: normal;
+}
+.header-box nav ul {
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+justify-content: space-between;
+  line-height: 22px;
+  height: 29px;
+}
+.header-box nav ul li:first-child {
+  font-weight: 700;
+}
+
+.textBox {
+  display: inline-block;
+  color: #FFFFFF;
+  margin: 0px 165px;
+
+  height: 261px;
+  width: 694px;
+  font-style: normal;
+  padding: 0px;
+
+}
+
+.textBox h1 {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 77.57px
+}
+
+.textBox h2 {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.textBox h3 {
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 240px;
+}
+/* header */
+.about {
+  margin: 90px 165px 0px 165px;
+  width: 1107px;
+  height: 544px;
+  font-size: 24px;
+  line-height: 29px;
+  font-style: normal;
+
+
+}
+
+.about h1 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+  margin-bottom: 90px;
+}
+
+
+.about p {
+
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  color: #333333;
+
+}
+
+.skill-box {
+  background-color: #fFFaf2;
+  margin: 0px;
+  padding-left: 165px;
+  padding-top: 90px;
+  padding-right: 0px;
+  width: 100hv;
+  height: 544px;
+  font-size: 24px;
+  line-height: 29px;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill h1 {
+  font-size: 24px;
+  line-height: 29.09px;
+  color: #333333;
+  font-style: normal;
+  margin: 0px 0px 60px 0px;
+  padding: 0px;
+}
+
+.profile {
+  height: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.skill {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 90px;
+  height: 544px;
+  font-size: 24px;
+  line-height: 29px;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.image-container {
+  box-sizing: border-box;
+  width: 350px;
+  height: 340px;
+  padding: 0px;
+  margin: 0px;
+
+  background-repeat: no-repeat;
+  background-size:contain;
+  position: relative;
+  background-image: url("../photo_5305342848008313803_y.jpg");
+ 
+}
+
+.text-container {
+  padding: 0px;
+  margin-left: 90px;
+
+  width: 635px;
+  min-height: 340px;
+
+}
+
+.Portfolio {
+  margin: 90px 165px 0px 165px;
+  width: 1440px;
+  height: 822px;
+
+}
+.Portfolio-container{
+display:flex;
+flex-direction: row;
+  width: 80%;
+  min-height: 403px;
+}
+.Portfolio h1 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+  font-style: normal;
+  margin-bottom: 60px;
+}
+
+.Portfolio h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: #333333;
+  margin-bottom: 60px;
+
+}
+.Portfolio-imagebox{
+  width: 635px;
+  height: 403px;
+  margin-left: 165px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image1{
+  background-image: url('../123123.png');
+  width: 255px;
+  height: 190px;
+  margin: 0px 90px;
+margin-bottom: 10px;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+.pictureBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 190px;
+}
+
+.image2{
+  width: 255px;
+  height:  100%;
+  margin: 0px 10px;
+   background-image: url('../1112.png');
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image3{
+  width: 255px;
+  height: 100%;
+  margin: 0px 10px;
+   background-image: url('../123333.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.Portfolio-textbox {
+  width: 349px;
+  min-height: 137px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+justify-content: space-between;
+
+}
+.Portfolio-textbox p{
+  height:295px;
+  padding: 0px;
+  margin: 0px;
+} 
+.Portfolio-imagebox a {
+  display: block;
+}
+.link{
+  margin-left:55px;
+ 
+}
+.text-container{
+display:flex;
+flex-direction:row;
+  justify-content: space-between;
+}
+.text{
+  width:35%;
+  height:100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text div{
+  width:100%;
+   height: 25px;
+  margin: 0px;
+  font-weight:600;
+  font-size: 18px;
+}
+.text div:first-child{
+  width:100%;
+   height: 60px;
+}
+.bar{
+  width:65%;
+  height:100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bar div{
+  width:100%;
+   height: 25px;
+  margin: 0px;
+  font-size: 18px;
+  font-weight:400;
+}
+.bar img{
+  width:100%;
+   height: 25px;
+  margin: 0px;
+  transform: scaleX(-1);
+}
+.bar div:first-child{
+  width:100%;
+   height: 60px;
+}
+/* footer */
+.footer{
+ 
+  min-height:528px;
+  background-color: #fFFaf2;
+  margin:0px;
+  padding-left:165px;
+  padding-top:90px;
+  display: flex;
+  flex-direction: column;
+}
+.footer h1{
+font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 60px;
+}
+ul {
+    list-style-type: none;
+  margin:0px;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 21.82px;
+  text-align: left;
+
+}
+.footer-textbox li{
+  margin:0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+.footer-textbox{
+  padding:0px;
+  margin:0px;
+  width: 70%;
+  justify-content: space-between;
+  display: flex;
+flex-direction: row;
+  
+}
+span {
+  margin-right: 20px;
+}
+.page1{
+
+  min-height: 100%;
+  width: 100%;
+ background-image: url('../123123.png');
+background-repeat: no-repeat;
+    background-position: center;
+   background-size: 100% 100%;
+}
+.page2{
+
+  height: 650px;
+  width: 100%;
+   background-image: url('../1112.png');
+
+    background-position: center;
+   background-size: 100% 100%;
+}
+.page3{
+   background-image: url('../123333.png');
+  height: 650px;
+  width: 100%;
+
+    background-position: center;
+   background-size: 100% 100%;
+}
+
+.floating-btn {
+  position: fixed;
+ top: 20px;
+  right: 20px;
+  background-color: #994d05; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+.floating-btn a{
+text-decoration: none;
+  color: #fff; 
+ 
+  }
+
+
+.floating-btn:hover {
+  background-color: #e9cd1c; 
+}
+.nav-box{
+ display: none;
+}
+@media (max-width: 768px) {
+  html, body {
+    font-size: 16px;
+  }
+.nav-box{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top:57px;
+  left: 30px;
+  z-index: 1000;
+  display: block;
+}
+  i.fas.fa-list {
+  
+    font-size: 24px; 
+    margin-right: 10px; 
+  }
+  .header {
+    height: 275px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.header h1{
+  font-size: 24px;
+  line-height: 29.09px;
+  text-align: left;
+
+}
+  .header-box {
+    flex-direction: column;
+    margin: 20px;
+   
+  }
+
+  .header-box nav ul {
+  display: none;
+  }
+
+
+  .textBox {
+    margin-top: 0px;
+    margin: 20px;
+    width: 300px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .textBox h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .textBox h2 {
+    font-size: 20px;
+  }
+
+  .textBox h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    margin: 20px;
+    width: auto;
+    height:315px;
+  }
+
+  .about h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+     text-align: center;
+  }
+
+  .about p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .skill-box {
+    padding: 20px;
+    height: 617px;
+  }
+
+  .skill h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container {
+    width: 218px;
+    height: 224px;
+    background-image: url("../photo_5305342848008313803_y.jpg");
+  
+      background-position: center;
+     background-size: 100% 100%;
+    margin-bottom: 20px;
+  }
+
+  .text-container {
+    margin:  0;
+    padding:0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .text{
+    width:89px;
+    height: 340px;
+     font-size:12px;
+  }
+  .text div{
+
+     font-size:12px;
+  }
+  .bar {
+    width: auto;
+    margin: 0px 0;
+    
+  }
+  .bar div{
+
+     font-size:12px;
+  }
+  .bar img {
+    
+    height: auto;
+  }
+  
+  .Portfolio {
+    margin: 20px;
+
+    width: auto;
+    height: 404px;
+   
+  }
+
+  .Portfolio-container {
+    flex-direction: column;
+    width: 100%;
+    min-height: auto;
+    align-items: center;
+  }
+
+  .Portfolio h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .Portfolio h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .Portfolio-imagebox {
+    margin: 0;
+    width: 308px;
+    height: 200px;
+
+    align-items:center;
+  }
+
+  .image1, .image2, .image3 {
+    width: 130px;
+    height: 95px;
+    margin: 10px 0;
+  }
+
+  .Portfolio-textbox {
+    width: 308px;
+    min-height: 71px;
+    font-family: Libre Franklin;
+    font-size: 12px;
+    line-height: 14.54px;
+    text-align: center;
+
+  }
+
+  .Portfolio-textbox p {
+    height: auto;
+
+  }
+
+  .link {
+    display: none;
+  }
+
+  .footer {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .footer h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .footer-textbox {
+    flex-direction: row;
+   
+    width: 100%;
+  }
+
+  .footer-textbox li {
+    margin: 10px 0;
+     font-size: 14px;
+  }
+  }
